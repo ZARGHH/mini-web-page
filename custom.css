@@ -1,0 +1,211 @@
+*{
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+}
+header{
+	width: 100%;
+	height:100vh ;
+	background-image: url(https://media.istockphoto.com/photos/fried-nepalese-momos-picture-id813464568?s=612x612);
+	background-repeat: no-repeat;
+	background-size: cover;
+}
+nav{
+	width: 100%;
+	height: 15vh;
+	background-color: rgba(255, 255, 255, 0.1);
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+	text-transform: uppercase;
+}
+nav .logo{
+	width: 35%;
+	text-align: center;
+	color: #960d4e;
+	font-family: 'STIX Two Math', serif;
+}
+nav .menu{
+	width: 40%;
+	display: flex;
+	justify-content: space-around;
+}
+nav .menu a{
+	width: 25%;
+	text-decoration: none;
+	color:#960d4e;
+ font-weight: bold;
+}
+nav .menu a:first-child{
+	color: white;
+}
+main{
+	width: 100%;
+	height: 85vh;
+	display: flex;
+	color: white;
+	justify-content: center;
+	align-items: center;
+	text-align: center;
+}
+section{
+	text-transform: uppercase;
+}
+section h3{
+	font-size: 35px;
+	font-weight: 600;
+	letter-spacing: 3px;
+	text-shadow: 3px 3px 6px white;
+}
+section h1{
+	margin: 30px 0 20 px 0px;
+	font-size: 40px;
+	font-weight: 900;
+	letter-spacing: 3px;
+	text-shadow: 2px 1px 6px white;
+}
+section p{
+	font-size: 25px;
+	font-style: italic;
+	font-weight: 400;
+}
+section a{
+	padding: 12px 30px;
+	border-radius: 4px;
+}
+.button 1{
+	background-color: #ffff;
+	color :#000;
+	font-weight: bold;
+}
+.burron 2{
+background-color: #000;
+color: #fff;
+font-weight: bold;	
+}
+/* login */
+
+.login-box{
+	width: 200px;
+	position: absolute;
+	top: 50%;
+	left: 50%;
+	transform: translate(-50%,-50%);
+	color :white;
+}
+.login-box h1{
+	float: left;
+	font-size: 40 px;
+	border-bottom: 6px solid white;
+	margin-bottom: 50px;
+	padding: 13px,0px;
+}
+.textbox i{
+	float: left;
+	text-align: center;
+}
+.textbox{
+	width: 100%;
+	font-size: 30px;
+	padding: 8px 0px;
+	margin: 8px 0px;
+	overflow: hidden;
+	border-bottom: 1px solid white;
+
+}
+.textbox input{
+	background: none;
+	color: white;
+	border: none;
+	outline: none;
+	font-size: 18px;
+	width: 80%;
+	float: left;
+	margin: 0 10px;
+
+}
+.btn{
+	width: 100%;
+	background: none;
+color: white;
+font-size: 18px;
+border: none;
+padding: 5px;
+cursor: pointer;
+
+}
+
+/*about*/
+.row{
+	display: flex;
+	height: 88%;
+	align-items: center;
+}
+.col{
+	flex-basis: 50%;
+}
+h4{
+	color: white;
+	font-size: 50px;
+	float: left;
+	margin-left: 30px;
+}
+p{
+	color:firebrick;
+	line-height: 25px;
+	font-size: 20px;
+	justify-content: left;
+	float: left;
+
+}
+button{
+	width: 1800px
+	color: #000;
+	font-size: 12px;
+	padding: 12px o;
+	background: white;
+	border: none;
+	outline: none;
+	margin-top: 30px;
+	float: left;
+	margin-left: 30px;
+}
+.card{
+	width: 200px;
+	height: 150px;
+	display:inline-block ;
+	border-radius: 10px;
+	padding: 15px 25px;
+	box-sizing: border-box;
+	cursor: pointer;
+	margin: 10px,15px;
+	background-color: red;
+	font-size: 15px;
+	background-position: center;
+	background-size: cover;
+	transition: transform 0.5s;
+	box-shadow: 2px 2px 18px #ffff;
+}.
+.card:hover{
+	transform: translateY(-30px);
+}
+.card1{
+	background-image: url(https://tse4.mm.bing.net/th?id=OIP.l1tyqGBtlLxbBsxAcb1SwgHaD5&pid=Api&P=0&w=310&h=164);
+}
+.card2{
+	background-image: url(https://tse4.mm.bing.net/th?id=OIP.i74cxanAcNq0LFU8lVG3tQHaHa&pid=Api&P=0&w=300&h=300);
+}
+.card3{
+	background-image: url(https://tse4.mm.bing.net/th?id=OIP.fIYrUJiNNFD0_8nsPvWB8gHaEK&pid=Api&P=0&w=324&h=183);
+}
+.card4{
+	background-image: url(https://i.pinimg.com/originals/99/19/c9/9919c92279d26f1fba93a07c9483e6d6.jpg);
+}
+h5{
+	color: #eee;
+	text-shadow: 0 0 5px #fff;
+}
+.card p{
+	font-size: 10px;
+}
+#success_message{ display: none;}
